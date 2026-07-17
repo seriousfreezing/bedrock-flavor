@@ -4,7 +4,7 @@
             "type": "bitmap",
             "file": "bedrockflavor:icons/toggle_on.png",
             "ascent": 11,
-            "height": 16,
+            "height": 14,
             "chars": [
                 "\ub001"
             ]
@@ -13,27 +13,9 @@
             "type": "bitmap",
             "file": "bedrockflavor:icons/toggle_off.png",
             "ascent": 11,
-            "height": 16,
+            "height": 14,
             "chars": [
                 "\ub002"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "bedrockflavor:gui/title/you_died.png",
-            "ascent": 9,
-            "height": 10,
-            "chars": [
-                "\ub003"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "bedrockflavor:gui/title/game_over.png",
-            "ascent": 9,
-            "height": 9,
-            "chars": [
-                "\ub004"
             ]
         },
         {
@@ -42,7 +24,7 @@
             "ascent": 9,
             "height": 9,
             "chars": [
-                "\ub005"
+                "\ub003"
             ]
         },
         {
@@ -51,7 +33,7 @@
             "ascent": 9,
             "height": 9,
             "chars": [
-                "\ub006"
+                "\ub004"
             ]
         },
         {
@@ -60,7 +42,7 @@
             "ascent": 9,
             "height": 9,
             "chars": [
-                "\ub007"
+                "\ub005"
             ]
         },
         {
@@ -68,7 +50,7 @@
             "file": "bedrockflavor:icons/resource.png",
             "ascent": 8,
             "chars": [
-                "\ub008"
+                "\ub006"
             ]
         },
         {
@@ -76,7 +58,7 @@
             "file": "bedrockflavor:icons/keyboard.png",
             "ascent": 8,
             "chars": [
-                "\ub009"
+                "\ub007"
             ]
         },
         {
@@ -84,7 +66,7 @@
             "file": "bedrockflavor:icons/account.png",
             "ascent": 8,
             "chars": [
-                "\ub010"
+                "\ub008"
             ]
         },
         {
@@ -92,7 +74,7 @@
             "file": "bedrockflavor:icons/video.png",
             "ascent": 8,
             "chars": [
-                "\ub011"
+                "\ub009"
             ]
         },
         {
@@ -100,7 +82,7 @@
             "file": "bedrockflavor:icons/sound.png",
             "ascent": 8,
             "chars": [
-                "\ub012"
+                "\ub010"
             ]
         },
         {
@@ -108,7 +90,7 @@
             "file": "bedrockflavor:icons/accessibility.png",
             "ascent": 8,
             "chars": [
-                "\ub013"
+                "\ub011"
             ]
         },
         {
@@ -116,7 +98,7 @@
             "file": "bedrockflavor:icons/language.png",
             "ascent": 8,
             "chars": [
-                "\ub014"
+                "\ub012"
             ]
         },
         {
@@ -125,7 +107,7 @@
             "ascent": 9,
             "height": 10,
             "chars": [
-                "\ub015"
+                "\ub013"
             ]
         },
         {
@@ -133,7 +115,7 @@
             "file": "bedrockflavor:icons/achievements.png",
             "ascent": 8,
             "chars": [
-                "\ub016"
+                "\ub014"
             ]
         },
         {
@@ -141,7 +123,7 @@
             "file": "bedrockflavor:icons/search.png",
             "ascent": 8,
             "chars": [
-                "\ub017"
+                "\ub015"
             ]
         },
         {
@@ -149,7 +131,7 @@
             "file": "bedrockflavor:icons/general.png",
             "ascent": 8,
             "chars": [
-                "\ub018"
+                "\ub016"
             ]
         },
         {
@@ -157,7 +139,7 @@
             "file": "bedrockflavor:icons/advanced.png",
             "ascent": 8,
             "chars": [
-                "\ub019"
+                "\ub017"
             ]
         },
         {
@@ -166,7 +148,7 @@
             "ascent": 9,
             "height": 10,
             "chars": [
-                "\ub021"
+                "\ub018"
             ]
         },
         {
@@ -174,7 +156,7 @@
             "file": "bedrockflavor:icons/reset.png",
             "ascent": 8,
             "chars": [
-                "\ub022"
+                "\ub019"
             ]
         },
         {
@@ -182,7 +164,7 @@
             "file": "bedrockflavor:icons/link.png",
             "ascent": 8,
             "chars": [
-                "\ub023"
+                "\ub020"
             ]
         },
         {
@@ -190,7 +172,7 @@
             "file": "bedrockflavor:icons/edit.png",
             "ascent": 8,
             "chars": [
-                "\ub024"
+                "\ub021"
             ]
         },
         {
@@ -198,7 +180,7 @@
             "file": "bedrockflavor:icons/chain.png",
             "ascent": 8,
             "chars": [
-                "\ub025"
+                "\ub022"
             ]
         },
         {
@@ -206,7 +188,7 @@
             "file": "bedrockflavor:icons/impulse.png",
             "ascent": 8,
             "chars": [
-                "\ub026"
+                "\ub023"
             ]
         },
         {
@@ -214,7 +196,7 @@
             "file": "bedrockflavor:icons/repeat.png",
             "ascent": 8,
             "chars": [
-                "\ub027"
+                "\ub024"
             ]
         },
         {
@@ -223,7 +205,7 @@
             "ascent": 9,
             "height": 10,
             "chars": [
-                "\ub028"
+                "\ub025"
             ]
         },
         {
@@ -231,7 +213,7 @@
             "file": "bedrockflavor:icons/plus.png",
             "ascent": 8,
             "chars": [
-                "\ub029"
+                "\ub026"
             ]
         },
         {
@@ -239,7 +221,7 @@
             "file": "bedrockflavor:icons/delete.png",
             "ascent": 8,
             "chars": [
-                "\ub030"
+                "\ub027"
             ]
         },
         {
@@ -247,7 +229,7 @@
             "file": "bedrockflavor:icons/reset_w.png",
             "ascent": 8,
             "chars": [
-                "\ub031"
+                "\ub028"
             ]
         },
         {
@@ -255,7 +237,7 @@
             "file": "bedrockflavor:icons/save.png",
             "ascent": 8,
             "chars": [
-                "\ub032"
+                "\ub029"
             ]
         },
         {
@@ -263,7 +245,7 @@
             "file": "bedrockflavor:icons/online.png",
             "ascent": 8,
             "chars": [
-                "\ub033"
+                "\ub030"
             ]
         }
     ]
