@@ -1,0 +1,11 @@
+{
+    "settings.chunksfadein.yes": "§f\ub001§r",
+    "settings.chunksfadein.no": "§f\ub002§r",
+    "settings.chunksfadein.on": "§f\ub001§r",
+    "settings.chunksfadein.off": "§f\ub002§r",
+    "settings.chunksfadein.title": "Configurações",
+    "settings.chunksfadein.mod_enabled": "Ativar Chunks Fade In",
+    "settings.chunksfadein.fade_enabled": "Esmaecer",
+    "settings.chunksfadein.world_curvature_enabled": "Curvatura do Mundo",
+    "settings.chunksfadein.animation_enabled": "Animação"
+}
