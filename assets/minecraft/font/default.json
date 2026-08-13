@@ -247,22 +247,6 @@
             "chars": [
                 "\ub030"
             ]
-        },
-        {
-            "type": "bitmap",
-            "file": "bedrockflavor:icons/controller.png",
-            "ascent": 8,
-            "chars": [
-                "\ub031"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "bedrockflavor:icons/touch.png",
-            "ascent": 8,
-            "chars": [
-                "\ub032"
-            ]
         }
     ]
 }
