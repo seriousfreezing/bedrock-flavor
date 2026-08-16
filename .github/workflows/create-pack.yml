@@ -10,8 +10,8 @@ on:
 # Change the information to the current version of the resource pack.
 # Version bumps will only occur with each release and not with unstable builds.
 env:
-  PROJECT_VERSION: "11.0.0"
-  BUILD_TYPE: "release" # Options: alpha, beta, release.
+  PROJECT_VERSION: "12.0.0"
+  BUILD_TYPE: "beta" # Options: alpha, beta, release.
 
 permissions:
   contents: write
