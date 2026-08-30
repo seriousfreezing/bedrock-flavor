@@ -1,0 +1,14 @@
+{
+    "mco.selectServer.joinCode": "Join a Realm",
+    "mco.pdp.trial.title": "YOUR OWN SERVER, ALWAYS ONLINE",
+    "mco.pdp.trial.description": "Run your own Minecraft server! You set the rules: who can join and how to play. Members play for free, even when you're offline. Easy to set up, manage, and access from any computer.\n\nWhat are Realms?",
+    "mco.pdp.friends.title": "Persistent multiplayer worlds",
+    "mco.pdp.friends.description": "Worlds uploaded to your Realm are always available to you and your invited Realm members - at any time, on any computer. Members can play even when you're away.",
+    "mco.pdp.minigames.title": "Members play free",
+    "mco.pdp.minigames.description": "People you invite become Realm members. They don't need to pay to join and play on the Realm; they just need a copy of Minecraft: Java Edition.",
+    "mco.pdp.private.title": "Easy and safe",
+    "mco.pdp.private.backups": "No need for technical know-how. Free, no-hassle backups. No sharing personal information.",
+    "mco.pdp.private.easyToManage": "",
+    "mco.pdp.private.worldSlots": "",
+    "mco.pdp.private.secure": ""
+}
