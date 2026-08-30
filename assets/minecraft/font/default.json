@@ -263,6 +263,14 @@
             "chars": [
                 "\ub032"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bedrockflavor:icons/howto.png",
+            "ascent": 8,
+            "chars": [
+                "\ub033"
+            ]
         }
     ]
 }

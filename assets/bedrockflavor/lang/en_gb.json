@@ -235,7 +235,7 @@
     "mco.selectServer.purchase": "Try free",
     "selectServer.defaultName": "Example server name",
     "addServer.title": "Edit Server",
-    "selectServer.edit": "Edit server",
+    "selectServer.edit": "\ub021 Edit server",
     "selectServer.delete": "\ub027 Delete server",
     "manageServer.edit.title": "Edit Server",
     "selectServer.deleteButton": "Delete server",
@@ -243,7 +243,7 @@
     "selectServer.deleteWarning": "If you delete this server you can still add it again later.",
     "lanServer.scanning": "Locating servers",
     "mco.news": "\ub020 News",
-    "selectWorld.delete": "Delete world",
+    "selectWorld.delete": "\ub027 Delete world",
     "selectWorld.deleteButton": "Delete world",
     "selectWorld.deleteQuestion": "Are you sure?",
     "selectWorld.deleteWarning": "If you delete this world it will be gone forever.",
@@ -440,7 +440,7 @@
     "bedrockify.options.showCoordinates": "Show coordinates:",
     "bedrockify.options.subCategory.screenSafeArea": "Screen Safe Area",
     "bedrockify.options.subCategory.other": "Other Settings",
-    "bedrockify.options.settings": "Settings",
+    "bedrockify.options.settings": "Advanced Settings",
     "bedrockify.options.subCategory.inventoryHighlight": "Slot Hover Highlight",
     "bedrockify.options.subCategory.tooltips": "Hotbar Item Tooltips",
     "bedrockify.options.subCategory.visualImprovements": "GUI/Visual Improvements",
@@ -630,7 +630,7 @@
     "bedrockskins.option.show_paper_doll.none": "Hidden",
     "bedrockskins.gui.title": "Dressing Room",
     "bedrockskins.button.change_skin.tooltip": "Dressing Room",
-    "controlify.gui.button": "\ub031 Controller",
+    "controlify.gui.button": "§f\ub031§r Controller",
     "controlify.gui.show_keyboard.off": "§f\ub002§r",
     "controlify.gui.auto_jump": "Auto jump",
     "controlify.gui.server_options": "Server",
@@ -702,5 +702,6 @@
     "touchcontroller.screen.manage_control_preset.control_style.click_to_interact": "Tap to interact",
     "touchcontroller.screen.manage_control_preset.control_style.aiming_by_crosshair": "Aim crosshair",
     "lambdabettergrass.menu.title": "Settings",
-    "lambdabettergrass.tooltip.mode": "Enables the better grass feature.\n - §cOFF§r disables the better grass feature entirely.\n - §6Fastest§r will copy the top texture on every side of the grass block. Similar to OptiFine's Fast option.\n - §eFast§r will connect the grass block textures like OptiFine's Fancy option.\n - §aFancy§r will connect the grass block textures and smoothen the side textures of nearby grass blocks."
+    "lambdabettergrass.tooltip.mode": "Enables the better grass feature.\n - §cOFF§r disables the better grass feature entirely.\n - §6Fastest§r will copy the top texture on every side of the grass block. Similar to OptiFine's Fast option.\n - §eFast§r will connect the grass block textures like OptiFine's Fancy option.\n - §aFancy§r will connect the grass block textures and smoothen the side textures of nearby grass blocks.",
+    "ui.minepedia.how_to_play": "§f\ub033§r How to Play"
 }
