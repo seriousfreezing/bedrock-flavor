@@ -34,7 +34,7 @@ jobs:
             *) FINAL_BUILD_TYPE="experimental" ;;
           esac
 
-          ZIP_NAME="bedrockflavor-${PROJECT_VERSION}.zip"
+          ZIP_NAME="bedrock-flavor-${PROJECT_VERSION}.zip"
           ARTIFACT_NAME="${ZIP_NAME%.zip}-${FINAL_BUILD_TYPE}"
           RELEASE_NAME="${PROJECT_VERSION}"
           SHORT_SHA="${GITHUB_SHA:0:7}"
