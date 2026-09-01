@@ -703,5 +703,17 @@
     "touchcontroller.screen.manage_control_preset.control_style.aiming_by_crosshair": "Aim crosshair",
     "lambdabettergrass.menu.title": "Settings",
     "lambdabettergrass.tooltip.mode": "Enables the better grass feature.\n - §cOFF§r disables the better grass feature entirely.\n - §6Fastest§r will copy the top texture on every side of the grass block. Similar to OptiFine's Fast option.\n - §eFast§r will connect the grass block textures like OptiFine's Fancy option.\n - §aFancy§r will connect the grass block textures and smoothen the side textures of nearby grass blocks.",
-    "ui.minepedia.how_to_play": "§f\ub033§r How to Play"
+    "ui.minepedia.how_to_play": "§f\ub033§r How to Play",
+    "mco.selectServer.joinCode": "Join a Realm",
+    "mco.pdp.trial.title": "YOUR OWN SERVER, ALWAYS ONLINE",
+    "mco.pdp.trial.description": "Run your own Minecraft server! You set the rules: who can join and how to play. Members play for free, even when you're offline. Easy to set up, manage, and access from any computer.\n\nWhat are Realms?",
+    "mco.pdp.friends.title": "Persistent multiplayer worlds",
+    "mco.pdp.friends.description": "Worlds uploaded to your Realm are always available to you and your invited Realm members - at any time, on any computer. Members can play even when you're away.",
+    "mco.pdp.minigames.title": "Members play free",
+    "mco.pdp.minigames.description": "People you invite become Realm members. They don't need to pay to join and play on the Realm; they just need a copy of Minecraft: Java Edition.",
+    "mco.pdp.private.title": "Easy and safe",
+    "mco.pdp.private.backups": "No need for technical know-how. Free, no-hassle backups. No sharing personal information.",
+    "mco.pdp.private.easyToManage": "",
+    "mco.pdp.private.worldSlots": "",
+    "mco.pdp.private.secure": ""
 }
