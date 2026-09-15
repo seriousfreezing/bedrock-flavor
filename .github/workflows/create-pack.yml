@@ -11,7 +11,7 @@ on:
 # Version bumps will only occur with each release and not with unstable builds.
 env:
   PROJECT_VERSION: "12.0.0"
-  BUILD_TYPE: "alpha" # Options: alpha, beta, release.
+  BUILD_TYPE: "release" # Options: alpha, beta, release.
 
 permissions:
   contents: write
