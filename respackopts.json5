@@ -1,5 +1,5 @@
 {
-    "id": "bedrockflavor",
+    "id": "bedrock-flavor",
     "version": 13,
     "capabilities": ["FileFilter"],
     "conf": {
