@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/map_nautilus"
+    "layer0": "minecraft:item/nautilus_map"
   }
 }
