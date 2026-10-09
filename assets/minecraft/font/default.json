@@ -226,7 +226,7 @@
         },
         {
             "type": "bitmap",
-            "file": "bedrockflavor:icons/reset_white.png",
+            "file": "bedrockflavor:icons/white_reset.png",
             "ascent": 8,
             "chars": [
                 "\ub028"

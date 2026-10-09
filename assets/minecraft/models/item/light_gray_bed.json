@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/bed_silver"
+    "layer0": "minecraft:item/light_gray_bed"
   }
 }
