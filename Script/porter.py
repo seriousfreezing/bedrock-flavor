@@ -129,7 +129,7 @@ for jeLang, beLang in languagePairs:
     beDict = parse_lang(beFile)
     outputDict = {}
 
-    if args.pack == "bedrocking" and jeLang == "en_us":
+    if jeLang == "en_us":
         outputDict.update(sourceEnglish)
 
     for beKey, jeKey in mapDict.items():
@@ -155,13 +155,15 @@ for jeLang, beLang in languagePairs:
     if localeExtraPath.exists():
         outputDict.update(parse_json(localeExtraPath))
 
+    prefixedKeys = set()
     for key, prefix in prefixes.items():
-        targetKey = key if key in outputDict else mapDict.get(key, key)
-        if targetKey in outputDict:
-            value = outputDict[targetKey]
+        targetKey = key if key in outputDict or key in jeDict else mapDict.get(key, key)
+        if targetKey in outputDict or targetKey in jeDict:
+            value = outputDict[targetKey] if targetKey in outputDict else jeDict[targetKey]
             while prefix and value.startswith(prefix):
                 value = value[len(prefix):]
             outputDict[targetKey] = prefix + value
+            prefixedKeys.add(targetKey)
 
     for key, value in overrides.items():
         targetKey = key if key in jeDict or key in outputDict else mapDict.get(key, key)
@@ -170,7 +172,7 @@ for jeLang, beLang in languagePairs:
     outputDict = {
         key: value
         for key, value in outputDict.items()
-        if value != jeDict.get(key)
+        if value != jeDict.get(key) or key in prefixedKeys
     }
 
     outputDict = dict(

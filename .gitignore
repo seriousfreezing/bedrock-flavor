@@ -2,9 +2,11 @@
 *.jar
 *.mrpack
 *.zip
+
 desktop.ini
 .DS_Store
-/Script/__pycache__
+__pycache__
+
 /Script/Input
 /Script/Output-BedrockFlavor
 /Script/Output-Bedrocking
