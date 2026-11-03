@@ -113,11 +113,11 @@ for beKey, value in sourceBedrockEnglish.items():
     sourceKeysByValue.setdefault(value, []).append(beKey)
     sourceKeysByCasefoldedValue.setdefault(value.casefold(), []).append(beKey)
 
-# Output key order: Bedrocking follows source-en_us.json; BedrockFlavor follows the
-# Java Edition en_us.json first, then the extra keys from source-en_us.json.
+# Output key order: Bedrocking follows source-en_us.json;
+# BedrockFlavor follows the Java Edition en_us.json first, then the extra keys from source-en_us.json.
 referenceKeys = list(sourceEnglish)
 if args.pack != "bedrocking" and (inputPath / "en_us.json").exists():
-    referenceKeys = list(parse_json(inputPath / "en_us.json")) + referenceKeys
+    referenceKeys = referenceKeys + list(parse_json(inputPath / "en_us.json"))
 referenceOrder = {}
 for referenceKey in referenceKeys:
     referenceOrder.setdefault(referenceKey, len(referenceOrder))

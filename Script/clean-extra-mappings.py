@@ -24,7 +24,7 @@ def remove_duplicate_generic_mappings():
 
     with open(extra_mappings_file, 'w', encoding='utf-8') as file:
         for line in lines:
-            if line not in mappings:
+            if line.strip() and line not in mappings:
                 file.write(line)
 
 def main():
