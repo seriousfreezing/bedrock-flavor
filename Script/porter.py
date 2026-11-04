@@ -88,7 +88,7 @@ def parse_lang(path):
             row = row.rstrip("\r\n")
             if row and not row.startswith("##") and "=" in row:
                 key, value = row.split("=", 1)
-                parsed[key.strip()] = value
+                parsed[key.strip()] = value.rstrip(" ")
     return parsed
 
 
@@ -96,8 +96,15 @@ print("Opening mapped strings...")
 parse_csv(extraPath / "mappings.csv", mapDict)
 parse_csv(extraPath / "extra-mappings.csv", mapDict)
 
+excludePath = extraPath / "exclude.txt"
+excludedKeys = set()
+if excludePath.exists():
+    with open(excludePath, "r", encoding="utf-8") as file:
+        excludedKeys = {line.strip() for line in file if line.strip()}
+
 overrides = parse_json(extraPath / "overrides.json")
 prefixes = parse_json(extraPath / "prefixes.json")
+suffixes = parse_json(extraPath / "suffixes.json") if (extraPath / "suffixes.json").exists() else {}
 sourceEnglish = parse_json(extraPath / "source-en_us.json")
 if args.pack == "bedrocking":
     mapDict = {
@@ -129,10 +136,12 @@ for jeLang, beLang in languagePairs:
     beDict = parse_lang(beFile)
     outputDict = {}
 
-    if jeLang == "en_us":
+    if jeLang.startswith("en_"):
         outputDict.update(sourceEnglish)
 
     for beKey, jeKey in mapDict.items():
+        if jeKey in excludedKeys:
+            continue
         targetExists = jeKey in sourceEnglish if args.pack == "bedrocking" else jeKey in jeDict
         if beKey in beDict and targetExists:
             outputDict[jeKey] = beDict[beKey]
@@ -151,6 +160,8 @@ for jeLang, beLang in languagePairs:
             )
             outputDict[sourceKey] = beDict[beKey]
 
+    if jeLang.startswith("en_"):
+        outputDict.update(sourceEnglish)
     localeExtraPath = extraPath / ("extra-" + jeLang + ".json")
     if localeExtraPath.exists():
         outputDict.update(parse_json(localeExtraPath))
@@ -163,6 +174,15 @@ for jeLang, beLang in languagePairs:
             while prefix and value.startswith(prefix):
                 value = value[len(prefix):]
             outputDict[targetKey] = prefix + value
+            prefixedKeys.add(targetKey)
+
+    for key, suffix in suffixes.items():
+        targetKey = key if key in outputDict or key in jeDict else mapDict.get(key, key)
+        if targetKey in outputDict or targetKey in jeDict:
+            value = outputDict[targetKey] if targetKey in outputDict else jeDict[targetKey]
+            while suffix and value.endswith(suffix):
+                value = value[:-len(suffix)]
+            outputDict[targetKey] = value.rstrip() + suffix
             prefixedKeys.add(targetKey)
 
     for key, value in overrides.items():
